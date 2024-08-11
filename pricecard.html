@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Example</title>
+  <style>
+html {
+  box-sizing: border-box;
+  font-family:'Karla';
+  font-size: 16px;
+  font-weight:400;
+}
+body {
+  padding:20px;
+}
+h4, h2, p {
+  margin:0px;
+}
+.top-section h2 {
+   color: #2ab2af;
+   margin-bottom: 15px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.card {
+  width: 600px;
+  height: 350px;
+  box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.5);
+  border-radius: 5px;
+  over-flow: hidden;
+}
+.top-section {
+  width: 100%;
+  height:40%;
+  padding: 25px;
+}
+.bottom-section {
+  width: 100%;
+  height: 60%;
+  padding: 25px;
+}
+.bottom-left-section {
+  display:inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #2ab2af;
+  padding: 20px;
+  color:white;
+}
+.bottm-right-section {
+  display:inline-block;
+  width: 50%;
+  height:100%;
+  background-color: #18c9c5;
+  vertical-align: top;
+  color:white;
+  padding: 20px;
+}
+.top-section h4 {
+  color: #c0df34;
+  margin-bottom: 10px
+  
+}
+.top-section p {
+  color: #98a6bd;
+  margin-bottom: 10px
+}
+button {
+  color:white;
+  background-color: #c0df34;
+  border:none;
+  padding:5px 25px 5px 25px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.price {
+  font-weight: 700;
+  font-size:24px;
+  display: inline-block;
+}
+.price-frequency {
+  display: inline-block;
+  font-size: 10px;
+  position: relative;
+  top: -3px;
+  opacity:0.7;
+  margin-left: 5px;
+}
+.bottom-left-section h4 {
+  margin-bottom: 15px;
+}
+.price-container {
+  margin-bottom: 10px;
+}
+ul {
+  padding: 0px;
+  list-style: none;
+  font-size:0.8rem;
+  opacity:0.8;
+}
+button:hover{
+  cursor : pointer;
+  opacity : 0.8;
+  transform: scale(1.1);
+}
+
+</style>
+</head>
+<body>
+  <div class="card">
+  <div class="top-section">
+    <h2> Join our community </h2>
+    <h4> 30 Days hassal-free money back guarentee </h4>
+  <p> Gain access to full libraries of tutorieals along with perfect code reviews. Perfect for any developers, who are sinciar about improving their skills </p>
+  </div>
+  <div class="bottom-section">
+      <div class="bottom-left-section">
+        <h4>Montly subscription</h4>
+        <div class = "price-container">
+          <div class = "price">$29</div>
+          <div class = "price-frequency">per Month </div>
+        </div>
+        <p> Full access lessthan $1 a day </p>
+        <button>Sign Up</button>
+      </div><div class="bottm-right-section">
+        <h4>Why Us </h4>
+        <ul>
+          <li>Tutorials By Experts</li>
+          <li>Peer & Expert review</li>
+          <li>Coding Excercize</li>
+          <li>Access to github reports</li>
+          <li>Community forum</li>
+          <li>Flashcard docks</li>
+          <li>New Videos Every week</li>
+        </ul>
+      </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
